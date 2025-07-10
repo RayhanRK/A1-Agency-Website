@@ -1,0 +1,25 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+/* shared styles */
+.primary-btn{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Header styles */
+
+.header-bg{
+    background-image: url(../Assets/Hero-bg.png);
+
+}
