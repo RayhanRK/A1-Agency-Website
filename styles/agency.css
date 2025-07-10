@@ -5,7 +5,9 @@
   font-style: normal;
 }
 
-
+body{
+     margin-top: 0;
+}
 
 /* shared styles */
 .primary-btn{
@@ -30,7 +32,11 @@
     align-items: center;
 }
 
-/* Hero Section styles */
+/* Banner Section styles */
+
+.hero{
+    padding: 30px 0px;
+}
 
 .logo-name{
     font-size: 34px;
@@ -53,3 +59,11 @@
     margin: 0 auto;
 }
 
+.hero-content{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 50px;
+}
