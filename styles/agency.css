@@ -137,3 +137,89 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+
+/* Users’ Feedback Section Section Styles */
+
+.feedback{
+    text-align: start;
+    margin: 120px 150px;
+    width: 1240px;
+    /* margin: 120px auto; */
+    
+}
+
+.feedback-title{
+     text-align: center;
+    font-size: 40px;
+    font-weight:700;
+     color: #252432;
+     
+}
+.cards-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
+.card{
+   border: 1px solid rgb(242, 237, 237);
+   border-radius: 14px;
+   background: rgb(255, 255, 255);
+   padding: 34px;
+   padding-right: 80px;
+}
+
+
+/* Review card style */
+.stars{
+        display: flex;
+        align-items: center;
+        margin: 24px 0px 20px;
+}
+
+.card-title{
+    color: #1E1E1E;
+    font-size: 24px;
+    text-align: start;
+    
+}
+.card-comment{
+    color:#1E1E1E
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.reviewer-div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar{
+      border-radius: 50%;
+      width: 40px;
+      height:40px;
+}
+
+.reviewer{
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+.reviwer-name{
+     font-size: 15px;
+     font-weight: 600;
+     color: #757575;
+     margin-bottom: -12px;
+}
+
+.date{
+     font-size: 15px;
+     font-weight: 400;
+     color: #757575;
+    }
+
+
+
