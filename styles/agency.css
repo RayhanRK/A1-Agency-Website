@@ -184,7 +184,7 @@ body{
     
 }
 .card-comment{
-    color:#1E1E1E
+    color:#1E1E1E;
     font-size: 16px;
     font-weight: 400;
 }
@@ -208,7 +208,7 @@ body{
     justify-content: flex-start;
    
 }
-.reviwer-name{
+.reviewer-name{
      font-size: 15px;
      font-weight: 600;
      color: #757575;
@@ -222,4 +222,87 @@ body{
     }
 
 
+/* Let’s Get In Touch Section Styles */
+.contact-section{
+    display: flex;
+    gap: 115px;
+    padding: 70px 150px;
+    /* margin: 0 auto; */
+    /* justify-content: space-between; */
+}
 
+.left-column{
+    width: 50%;
+    /* padding: 200px 115px 200px 0px; */
+}
+.left-column h1{
+
+    font-size: 70px;
+    font-weight: 700;
+     margin: 150px 0;
+}
+.right-column{
+    width: 50%;
+}
+
+.right-column  input[type="text"], .right-column input[ type= "email"],.right-column textarea {
+   
+    height: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    margin-bottom: 24px;
+    border: 1px solid rgb(214, 221, 237);
+ }
+ .form-btn{
+    width: 106%;
+ }
+
+ /* Footer Styles */
+
+ .footer-logo{
+        color: rgb(78, 71, 255);
+        font-family: Inter;
+        font-size: 80px;
+        font-weight: 900;
+        margin-bottom: 0px;
+ }
+
+footer{
+    padding-top: 20px;
+    background-color: #fff;
+    margin: -8px;
+}
+
+.footer-box{
+    text-align: center;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 80px 400px 100px;
+}
+.footer-des{
+    Font: Inter;
+    Font-size: 16px;
+    Font-weight: 400;
+    color: rgba(137, 135, 161, 1);      
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 10px;
+
+}
+.dummy-link{
+    color: #8987A1;
+    Font: Inter;
+    Font-size: 16px;
+    Font-weight: 400;
+    text-decoration: none;
+   
+}
+
+/* CSS Styles Completed here */
